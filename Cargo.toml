@@ -10,7 +10,7 @@ license = "MIT"
 [dependencies]
 bitcoin =  { version = "^0.26", features = [ "rand" ] }
 bitcoin_hashes = "^0.9"
-bitcoin-utxo = { git = "https://github.com/hexresearch/bitcoin-utxo", rev = "ade64491ed86a327f5a856edea432fff61342d0e" }
+bitcoin-utxo = { git = "https://github.com/hexresearch/bitcoin-utxo", branch = "debug" }
 byte-strings = "^0.1"
 byteorder = "1"
 bytes = "1"
